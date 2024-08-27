@@ -10,6 +10,7 @@
     <OrasOSXTarGzFile>oras_osx_amd64.tar.gz</OrasOSXTarGzFile>
     <OrasWinUrl>https://github.com/deislabs/oras/releases/download/v$(OrasVersion)/oras_$(OrasVersion)_windows_amd64.tar.gz</OrasWinUrl>
     <OrasOSXUrl>https://github.com/deislabs/oras/releases/download/v$(OrasVersion)/oras_$(OrasVersion)_darwin_amd64.tar.gz</OrasOSXUrl>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(OS)' == 'Windows_NT'">
